@@ -2,7 +2,7 @@ import operations
 
 
 def test_suma():
-    assert operations.suma(3, 3) == 5
+    assert operations.suma(3, 3) == 6
     assert operations.suma(0, 0) == 0
     assert operations.suma(-5, -6) == -11
     assert operations.suma(5, -6) == -1
